@@ -67,7 +67,7 @@ footer {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 670px) {
   .header-list, .header-list2, .header-list3, .dropdown, .header-right2, .header-logo {
     display: none;
   }
