@@ -154,14 +154,17 @@ footer {
 .about {
 float: none;
 width: 100%;
-height: auto;
+height: 500px;
 }
 
 .kontak {
 float: none;
 width: 100%;
-height: auto;
-font-size : 15px;
+height: 200px;
+}
+
+.kontak1 {
+  font-size: 15px;  
 }
 
 .facebook, .Twitter, .instagram, .youtube, .whatsapp {
