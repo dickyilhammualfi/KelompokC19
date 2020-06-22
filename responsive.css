@@ -71,6 +71,16 @@ footer {
   .header-list, .header-list2, .header-list3, .dropdown, .header-right2, .header-logo {
     display: none;
   }
+  
+.top-wrapper{
+    overflow: hidden;
+    height: 320px;
+}
+
+.top-wrapper figure img {
+    height: 320px;
+}
+  
 .menu-icon {
   display: inline-block;
   float: right;
