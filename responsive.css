@@ -167,9 +167,13 @@ footer {
 }
 
 .about {
-float: none;
-width: 100%;
-height: 500px;
+ float: none;
+ width: 100%;
+ height: 500px;
+}
+  
+.about h1 {
+ padding-top: 5px;  
 }
 
 .kontak {
