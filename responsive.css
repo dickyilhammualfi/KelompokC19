@@ -116,7 +116,7 @@ footer {
 }
 
 input {
-  width : 100px
+  width : 200px
 }
 
 .main-wrapper {
@@ -154,13 +154,14 @@ footer {
 .about {
 float: none;
 width: 100%;
-height: 400px;
+height: 100%;
 }
 
 .kontak {
 float: none;
 width: 100%;
-height: 200px;
+height: 100%;
+font-size : 15px;
 }
 
 .facebook, .Twitter, .instagram, .youtube, .whatsapp {
