@@ -115,6 +115,10 @@ footer {
   transition: 0.3s;
 }
 
+.search {
+ display: none;  
+  }
+  
 input {
   width : 100%;
 }
