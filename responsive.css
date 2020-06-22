@@ -171,6 +171,12 @@ height: 250px;
 .kontak1 p {
   font-size: 10px;  
 }
+  
+.kontak1 a {
+  font-size: 10px;
+  padding: 0px 5px;
+  padding-top: 20px;
+}
 
 .facebook, .Twitter, .instagram, .youtube, .whatsapp {
     float: left;
