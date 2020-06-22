@@ -1,0 +1,522 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin : 0 auto ;
+  font-family: "lucida grande";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  color: #212529;
+  text-align: center;
+  width: auto;
+  background-color: transparent;
+
+}
+
+header {
+  background-color: #ccff99;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-logo {
+  float: left;
+  padding: 0 10px;
+}
+
+.menu-icon {
+  color: black;
+  float: right;
+  font-size: 25px;
+  padding: 10px 0;
+  display: none;
+}
+
+.header-list{
+  float: left;
+
+}
+
+.header-list:hover .dropbtn {
+  background-color: #3e8e41;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.header-list2{
+  float: left;
+}
+
+.header-list2:hover .dropbtn {
+  background-color: #3e8e41;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.header-list3{
+  float: left;
+}
+
+.header-list3:hover .dropbtn {
+  background-color: #3e8e41;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.dropbtn {
+  background-color: #ccff99;
+  color: black;
+  padding: 26px 30px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  float: left;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+  color: #fff;
+  transition: 0.3s;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+
+}
+
+.header-right1 {
+  float: right;
+  width: auto;
+}
+
+.header-right2 {
+  float: right;
+  width: auto;
+  padding: 0 30px;
+}
+
+.header-right1 .btn {
+  padding: 12px 15px;
+  color: white;
+  opacity: 0.5;
+}
+
+.header-right2 .btn {
+  padding: 25px 15px;
+  color: white;
+  opacity: 0.5;
+}
+
+.header-right1 {
+  margin-right: 0px;
+  padding: 5px 0;
+}
+
+.header-right1 .search {
+  background-color: #ff0000;
+}
+
+.header-right2 .Login {
+  background-color: #3cb371;
+}
+
+.header-right2 .Register {
+  background-color: #0000ff;
+}
+
+.btn:hover {
+  color: #fff;
+  transition: 0.3s;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.top-wrapper{
+  overflow: hidden;
+  height: 620px;
+}
+
+.top-wrapper figure div{
+  width: 20%;
+  float: left;
+}
+
+.top-wrapper figure img{
+  width: 100%;
+  float: left;
+}
+
+.top-wrapper figure{
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 30s slidy infinite;
+}
+
+@keyframes slidy{
+  0%{
+    left: 0%
+  }
+
+  10%{
+    left: 0%;
+  }
+
+  12%{
+    left: -100%;
+  }
+
+  22%{
+    left: -100%;
+  }
+
+  24%{
+    left: -200%;
+  }
+
+  34%{
+    left: -200%;
+  }
+
+  36%{
+    left: -300%;
+  }
+
+  46%{
+    left: -300%;
+  }
+
+  48%{
+    left: -400%;
+  }
+
+  58%{
+    left: -400%;
+  }
+
+  60%{
+    left: -300%;
+  }
+
+  70%{
+    left: -300%;
+  }
+
+  72%{
+    left: -200%;
+  }
+
+  82%{
+    left: -200%;
+  }
+
+  84%{
+    left: -100%;
+  }
+
+  94%{
+    left: -100%;
+  }
+
+  96%{
+    left: 0%;
+  }
+
+  100%{
+    left: 0%;
+  }
+}
+
+
+
+.main-wrapper {
+  height: 600px;
+  width: 100%;
+  padding-bottom: 80px;
+  text-align:center;
+  margin: 0 auto;
+  background-color: #E0FFFF;
+}
+
+.main-product{
+  margin-top: 100px;
+  float:left;
+  width:25%;
+}
+
+.main-product-icon{
+  position: relative;
+}
+
+.main-product-icon p{
+  position: absolute;
+  top: 85%;
+  width: 200px;
+  color: white;
+  margin-left: 20px;
+  font-family: Arial Black;
+  font-weight: bolder;
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 20px;
+  background-color: rgb(60, 179, 113, 0.7);
+}
+
+.txt-title{
+  display: inline-block;
+  margin-top:auto;
+  margin-bottom:0px;
+  font-size:30px;
+  color:#566573 ;
+}
+
+.txt-contents{
+  height: 100px;
+  margin-bottom: 5px;
+  display: inline-block;
+  color:#566573 ;
+  padding: 5px 35px;
+}
+
+
+.message {
+  line-height: 30px;
+  width:200px;
+  height: 30px;
+  background-color: #20B2AA;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+  margin: 20px 20px;
+}
+
+.message:active{
+  box-shadow:none;
+  position:relative;
+  top:7px;
+}
+
+
+.additional-wrapper {
+  height: 620px;
+  background-color: #66CDAA;
+}
+
+.heading  {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: black;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.heading h2, h3 {
+  font-weight: normal;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+
+.products p {
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  letter-spacing: 2px;
+
+}
+
+.products img {
+  border-radius: 50%;
+  border-style: dashed;
+  background-color: rgb(245, 255, 250, 0.2);
+
+}
+
+.products img:hover {
+  background-color: #F5FFFA;
+  transition: 0.3s;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.product {
+  float: left;
+  width: 25%;
+
+}
+
+.products-icon{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.products-icon p {
+  text-align: center;
+}
+
+footer {
+  height: 400px;
+}
+
+.about {
+  height: 400px;
+  float: left;
+  width: 50%;
+  background-color: #DAA520;
+}
+
+.kontak {
+  height: 400px;
+  float: left;
+  background-color: #BDB76B;
+  width: 50%;
+}
+
+.footer-logo {
+  height: 50px;
+  float: left;
+  width: 100%;
+  background-color: #778899;
+
+}
+.footer-logo img {
+  margin-left: 60px;
+  margin-right: 40px;
+}
+
+.footer-logo h1 {
+  font-size: 20px;
+  letter-spacing: 6px;
+  margin-top: 15px;
+}
+.logo1 {
+  float: left;
+}
+
+.about {
+  text-align: left;
+}
+
+.about h1 {
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #eee;
+}
+
+.anggota1 {
+  width: 50%;
+  float: left;
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding: 40px 20px;
+}
+
+.anggota1 p {
+  border-bottom: 2px dashed #eee;
+  margin-bottom: 30px;
+}
+
+.anggota2 {
+  width: 50%;
+  float: left;
+  padding: 40px 20px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.anggota2 p {
+  border-bottom: 2px dashed #eee;
+  margin-bottom: 30px;
+}
+
+.kontak {
+  text-align: center;
+}
+
+.kontak h1 {
+  border-bottom: 3px solid #eee;
+  padding-bottom: 15px;
+}
+
+.kontak .heading h1 {
+  border-bottom: 2px solid #eee;
+}
+
+.facebook, .Twitter, .instagram, .youtube, .whatsapp {
+  float: left;
+  margin: 130px 0;
+  width: 20%;
+}
+
+.kontak1 p {
+  font-size: 20px;
+}
+
+.kontak1 a {
+  margin: 0 10px;
+  background-color: #48D1CC;
+  padding: 0 10px;
+  padding-top: 30px;
+  line-height: 20px;
+  border-radius: 20%;
+}
