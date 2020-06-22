@@ -1,5 +1,5 @@
 
-@media (max-width: 1000px) {
+@media all and (max-width: 1000px) {
   .header-list, .header-list2, .header-list3, .dropdown {
     display: none;
   }
@@ -67,7 +67,7 @@ footer {
 
 }
 
-@media (max-width: 670px) {
+@media all and (max-width: 670px) {
   .header-list, .header-list2, .header-list3, .dropdown, .header-right2, .header-logo {
     display: none;
   }
